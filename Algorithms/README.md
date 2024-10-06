@@ -9,9 +9,14 @@ Each algorithm has its own dedicated folder with a README file for a detailed ex
 Here are the algorithms covered in this section:
 
 - Backtracking
+- Branch And Bound
+- Brute-Force
+- Dynamic-Programming
 - Greedy
-- Branch and Bound
 - KMP
+- Kadane's
+- Sliding-Window
+- Two-Pointer
 
 ## Why Algorithms?
 
