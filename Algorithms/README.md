@@ -1,10 +1,10 @@
-# Algorithms in JavaScript
+# Algorithms
 
 Welcome to the Algorithms section of this repository. Algorithms are a set of instructions that are used to perform a specific task. They are crucial for solving problems that require a structured approach.
 
 ## What's Inside?
 
-This section includes the implementation of various algorithms using JavaScript. Each algorithm has its own dedicated folder with a README file for a detailed explanation and a JavaScript implementation.
+Each algorithm has its own dedicated folder with a README file for a detailed explanation.
 
 Here are the algorithms covered in this section:
 
