@@ -16,6 +16,7 @@ It always take least amount of space as possible.
 *Note*: In max binary heap, parent is always greater than child, but it's important to note that *these are not necessarily the second largest numbers in the entire heap*. For exp: here 36 and 25 is the next 2 largest elements, but they are not on the same tier. It's just any number smaller on the left, any number smaller on the right.
 In siblings, there are no any implied ordering or no any relationship b/w siblings only except they are sibling.
 
+```
        100
       /   \
     19     `36`
@@ -23,6 +24,7 @@ In siblings, there are no any implied ordering or no any relationship b/w siblin
    17  3  `25` 14
   / \
  2   7
+```
 
 ## How It Works?
 
@@ -47,6 +49,7 @@ In a priority queue implementation using a Min Heap, tasks are assigned numeric 
 
 ### Example diagram to add 55 as a new element in existing tree
 
+```
 Initial Heap:                      After Inserting 55:              After Bubble-Up (55 > 33):       Final Heap (55 > 41):
        41                                 41                                 41                                55
      /    \                             /    \                             /    \                            /    \
@@ -60,4 +63,5 @@ Initial Heap:                      After Inserting 55:              After Bubble
   (next available spot)                  (bubble up)                        (bubble up again)          (2 - 1) // 2 = 0 → heap[0] = 41
                                                                     Its parent index is 
                                                                     (6 - 1) // 2 = 2 → heap[2] = 33
+```                                                                    
 
