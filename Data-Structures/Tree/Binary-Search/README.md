@@ -18,11 +18,11 @@ Each node in a BST has at most two children: a left child with a value less than
     
 Example
 
-       8
+```    8
       / \
      3   10
     / \    \
-   1   6    14
+   1   6    14 ```
 
 For tree traversing, we used 2 approaches:  
 1. Breadth First Search(BFS)
@@ -31,11 +31,11 @@ For tree traversing, we used 2 approaches:
 ### Breadth First Search
 
 In this, we want to visit every node on the same level, every sibling node before we look at a child node. Here we are working **Horizontally**. We use **Queue** data structure in BFS.
-       8
+```    8
       / \
      3   10
     / \    \
-   1   6    14
+   1   6    14 ```
 
 **Output** = `[8, 3, 10, 1, 6, 14]`
 
@@ -46,11 +46,11 @@ In this, it visits or traverse nodes **Vertically** down to the end of the tree.
 2. DFS PostOrder
 3. DFS InOrder
 
-       8
+```    8
       / \
      3   10
     / \    \
-   1   6    14
+   1   6    14 ```
 
 
 #### DFS PreOrder => Traversing flow: <root> <left> <right>
